@@ -1,0 +1,22 @@
+{
+  "borderRadius": {
+    "medium": {
+      "value": 4,
+      "type": "borderRadius"
+    },
+    "small": {
+      "value": 2,
+      "type": "borderRadius"
+    }
+  },
+  "sizing": {
+    "s": {
+      "value": 4,
+      "type": "sizing"
+    },
+    "m": {
+      "value": 8,
+      "type": "sizing"
+    }
+  }
+}
