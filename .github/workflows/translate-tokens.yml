@@ -16,3 +16,8 @@ jobs:
         node-version: '12'
     - run: npm ci
     - run: npm run token-transform
+    - name: Archive token-transform results
+      uses: actions/upload-artifact@v2
+      with:
+        name: transformed-tokens
+        path: src/data/tokens-testxz.json
