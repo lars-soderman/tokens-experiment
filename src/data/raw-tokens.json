@@ -6,7 +6,7 @@
         "type": "borderRadius"
       },
       "small": {
-        "value": "8",
+        "value": "10",
         "type": "borderRadius"
       }
     },
