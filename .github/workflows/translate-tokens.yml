@@ -21,3 +21,6 @@ jobs:
       with:
         name: transformed-tokens
         path: src/data/tokens.json
+    - uses: actions/download-artifact@v2
+      with:
+        path: src/data
