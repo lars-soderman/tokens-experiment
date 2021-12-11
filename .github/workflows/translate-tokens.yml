@@ -20,4 +20,4 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: transformed-tokens
-        path: src/data/tokens-testxz.json
+        path: src/data/tokens.json
