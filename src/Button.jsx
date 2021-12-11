@@ -1,17 +1,23 @@
 import React from 'react'
 import styled from 'styled-components'
-import styles from './data/output.json'
+import tokens from './data/tokens.json'
 
 const StButton = styled.button`
-
+  border-radius: ${tokens.borderRadius.small.value}px;
+  min-height: 44px;
+  min-width: 200px;
+  padding: 10px 40px;
+  margin: 80px auto;
+  background: green;
+  color: white;
+  font-weight: 500;
 `
 
-const Button = () => {
-  console.log('styles', styles)
+const Button = ({...props}) => {
   return (
-    <div>
-      Hello
-    </div>
+    <StButton {...props}>
+      button text
+    </StButton>
   )
 }
 

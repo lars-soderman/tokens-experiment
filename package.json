@@ -17,7 +17,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "token-transform": "token-transformer src/data/raw-tokens.json src/data/tokens.json"
   },
   "eslintConfig": {
     "extends": [
