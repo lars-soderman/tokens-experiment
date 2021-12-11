@@ -15,4 +15,4 @@ jobs:
       with:
         node-version: '12'
     - run: npm ci
-    - run: npm token-transform
+    - run: npm run token-transform
