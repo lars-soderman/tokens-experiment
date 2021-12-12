@@ -18,6 +18,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "deploy": "npm publish",
     "token-transform": "token-transformer src/data/raw-tokens.json src/data/tokens.json"
   },
   "eslintConfig": {
@@ -25,6 +26,13 @@
       "react-app",
       "react-app/jest"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lars-soderman/github-package-test.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@lars-soderman"
   },
   "browserslist": {
     "production": [
